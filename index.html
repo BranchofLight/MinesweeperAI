@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>MinesweeperAI</title>
+    <link rel="stylesheet" type="text/css" href="stylesheet.css" />
+  </head>
+  <body>
+    <div id="top-row">
+      <div class="board" id="top-left-board"></div>
+      <div class="chart" id="top-left-chart">
+        Statistical Weight <br>
+        Wins: <span id="win-tl">0</span> <br>
+        Losses: <span id="loss-tl">0</span> <br>
+        Win %: <span id="perc-tl">0</span>%
+      </div>
+      <div class="board" id="top-right-board"></div>
+      <div class="chart" id="top-right-chart">
+        Low Risk Bias <br>
+        Wins: <span id="win-lr">0</span> <br>
+        Losses: <span id="loss-lr">0</span> <br>
+        Win %: <span id="perc-lr">0</span>%
+      </div>
+    </div>
+
+    <div id="btm-row">
+      <div class="board" id="btm-left-board"></div>
+      <div class="chart" id="btm-left-chart">
+        Pathfinding <br>
+        Wins: <span id="win-pf">0</span> <br>
+        Losses: <span id="loss-pf">0</span> <br>
+        Win %: <span id="perc-pf">0</span>%
+      </div>
+      <div class="board" id="btm-right-board"></div>
+      <div class="chart" id="btm-right-chart"></div>
+    </div>
+
+    <script src="./require.js"></script>
+    <script src="./dist/main.js"></script>
+  </body>
+</html>

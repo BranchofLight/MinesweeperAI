@@ -1,0 +1,29 @@
+{
+  "name": "minesweeperai",
+  "version": "1.0.0",
+  "description": "A comparison of AI solutions for Minesweeper",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BranchofLight/MinesweeperAI.git"
+  },
+  "author": "Scott Andrechek",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BranchofLight/MinesweeperAI/issues"
+  },
+  "homepage": "https://github.com/BranchofLight/MinesweeperAI#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-jshint": "^2.0.4",
+    "gulp-watch": "^4.3.11",
+    "jshint": "^2.9.4"
+  },
+  "dependencies": {
+    "chart.js": "^2.5.0"
+  }
+}

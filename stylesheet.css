@@ -1,0 +1,159 @@
+.cell {
+  display: inline-block;
+
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+
+  text-align: center;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+
+.unclicked {
+  text-indent: -9999px;
+  background-color: #77abf9;
+}
+
+.clicked {
+  text-indent: 0px;
+  background-color: #cedcf1;
+}
+
+.top-left-cell {
+  border-right: 1px;
+  border-left: 1px;
+  border-top: 1px;
+  border-bottom: 0px;
+
+  border-color: black;
+  border-style: solid;
+}
+
+.top-right-cell {
+  border-right: 1px;
+  border-left: 0px;
+  border-top: 1px;
+  border-bottom: 0px;
+
+  border-color: black;
+  border-style: solid;
+}
+
+.btm-left-cell {
+  border-right: 1px;
+  border-left: 1px;
+  border-top: 1px;
+  border-bottom: 1px;
+
+  border-color: black;
+  border-style: solid;
+}
+
+.btm-right-cell {
+  border-right: 1px;
+  border-left: 0px;
+  border-top: 1px;
+  border-bottom: 1px;
+
+  border-color: black;
+  border-style: solid;
+}
+
+.top-row-cell {
+  border-right: 1px;
+  border-left: 0px;
+  border-top: 1px;
+  border-bottom: 0px;
+
+  border-color: black;
+  border-style: solid;
+}
+
+.inner-cell-left {
+  border-right: 1px;
+  border-left: 1px;
+  border-top: 1px;
+  border-bottom: 0px;
+
+  border-color: black;
+  border-style: solid;
+}
+
+.inner-cell {
+  border-right: 1px;
+  border-left: 0px;
+  border-top: 1px;
+  border-bottom: 0px;
+
+  border-color: black;
+  border-style: solid;
+}
+
+.btm-row-cell {
+  border-right: 1px;
+  border-left: 0px;
+  border-top: 1px;
+  border-bottom: 1px;
+
+  border-color: black;
+  border-style: solid;
+}
+
+#top-row, #btm-row {
+  text-align: center;
+  margin-bottom: 50px;
+
+  width: 1450px;
+  height: 500px;
+}
+
+.css:hover {
+  background-color: black;
+}
+
+.board {
+  width: 500px;
+  display: inline-block;
+}
+
+.chart {
+  display: inline-block;
+  width: 200px;
+  height: 500px;
+  vertical-align: top;
+  font-family: sans-serif;
+  font-size: 25px;
+}
+
+.mine-number-1 {
+	color: #3BA12D;
+}
+
+.mine-number-2 {
+	color: #54CDD1;
+}
+
+.mine-number-3 {
+	color: #B82E26;
+}
+
+.mine-number-4 {
+	color: #D17025;
+}
+
+.mine-number-5 {
+	color: #1D267F;
+}
+
+.mine-number-6 {
+	color: #6E21D1;
+}
+
+.mine-number-7 {
+	color: #87271F;
+}
+
+.mine-number-8 {
+	color: black;
+}
